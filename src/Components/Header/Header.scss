@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid #d8d8d8;
+
+  &__title {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  &__mode-btn {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
+
+.logout-btn {
+  margin-top: 15px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  background: #1d9bf0;
+  border-radius: 27.5px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.profile__box {
+  padding-top: 260px;
+  display: flex;
+  align-items: center;
+}
+
+.profile__img {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.profile__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 10px;
+}
+
+.profile__name {
+  margin: 0;
+  padding: 0;
+  margin-left: -80px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.profile__adress {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}

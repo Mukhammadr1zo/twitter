@@ -1,0 +1,26 @@
+.twitter__btn {
+  border: none;
+  width: 230px;
+  height: 55px;
+  background: #1d9bf0;
+  border-radius: 27.5px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+}
+
+.new-tweet__button {
+  width: 110px;
+  margin-left: 300px;
+}
